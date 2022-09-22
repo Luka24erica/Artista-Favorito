@@ -1,0 +1,63 @@
+body{
+    background-image: url("img/download.jpg");
+    background-size: cover;
+    max-height: 100%;
+    font-size: 20px;
+}
+
+.menu{
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+}
+
+.menu--option{
+    transition: 0.3s ease;
+    border-top: 4px solid rgba(0, 0, 0, 0.199);
+    border-bottom: 4px solid rgba(187, 187, 187, 0.199);
+    padding: 1% 0;
+    margin: 0px 2%;
+    font-size: 1.2em;
+}
+
+.menu--option:hover{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 0.4% 0;
+}
+
+#bio-ts {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(253, 60, 60);
+    text-justify: inter-word;
+    padding: 20px;
+}
+
+#conteudo-ts {
+    background-color: rgba(252, 15, 15, 0.199);
+    display: flex;
+}
+
+.conteudo-texto {
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+#local p {
+    font-family: 'Houses';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.subtitulo {
+    font-family: 'WizardWorld';
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
